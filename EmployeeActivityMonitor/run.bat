@@ -29,7 +29,14 @@ if errorlevel 1 (
 echo.
 echo Build successful! Starting monitor...
 echo.
+
+REM Run the application
 dotnet run --project . -c Release
 
-pause
+if errorlevel 1 (
+    echo.
+    echo Trying alternative run method...
+    dotnet .\bin\Release\net8.0\EmployeeActivityMonitor.dll
+)
 
+pause

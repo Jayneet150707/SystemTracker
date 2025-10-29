@@ -6,6 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Platforms>x64</Platforms>
+    <StartupObject>EmployeeActivityMonitor.Program</StartupObject>
+    <AssemblyName>EmployeeActivityMonitor</AssemblyName>
+    <RootNamespace>EmployeeActivityMonitor</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,4 +17,3 @@
   </ItemGroup>
 
 </Project>
-
